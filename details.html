@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/details.css" />
+    <title>Details</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+   <div id="detailsPage">
+    <div id="detailsContainer">
+        <div id="userInfo">
+            <p id="userName"></p>
+            <p id="userFullName"></p>
+            <p id="userPhone"></p>
+            <p id="userEmail"></p>
+            <p id="userAddress"></p>
+        </div>
+        <div id="auditRatio">
+            <p id="totalXp"></p>
+            <p id="givenXp"></p>
+            <p id="receivedXp"></p>
+        </div>
+        <div id="statgraph">
+            <svg id="projectChart"></svg>
+            <div id="tooltip" class="tooltip"></div>
+        </div>
+        <div id="skillCircleContainer">
+        <div id="skillCircle">
+        </div>
+    </div>
+    </div>
+   </div>
+   <div id="logout" style="display: flex; justify-content: center;">
+    <button style="width: 30%; display: flex; justify-content: center; align-items: center;  margin-top: 2%; height: 50px; background-color: rgb(213, 19, 194); color: #f8f5f5; border-radius: 5px; border: 2px solid rgb(217, 214, 217); font-weight: bold; font-size: 20px; box-shadow: 0 0 10px rgba(83, 60, 60, 0.2);" onclick="logOut()">Log Out</button>
+</div>
+</body>
+<script type="module" src="./index.js"></script>
+</html>

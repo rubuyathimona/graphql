@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../image/graphql.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#login-form{
+    width: 50%;
+    max-width: 450px;
+    padding: 26px;
+    background-color: rgb(218, 210, 214);
+    box-shadow: 0 0 10px rgba(83, 60, 60, 0.2);
+    border-radius: 5px;
+}
+
+input {
+    background-color: #f8f5ff;
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #6f42c1;
+    transition: background-color 0.3s ease;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #563d7c;
+}
+
+#error-message {
+    color: red;
+    display: none;
+}
